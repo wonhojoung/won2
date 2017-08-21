@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "oneshot",
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -61,8 +61,8 @@
             },
             ".link, .dropdown-item": {
               "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i",
-              "font-family": "'Arvo', serif"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
             },
             ".link": {
               "font-size": "1.05rem"
@@ -111,7 +111,11 @@
           "_params": {
             "bgColor": "#f1c40f",
             "fontSize": "1.05",
-            "fontName": {},
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
@@ -138,7 +142,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ONESHOT</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">회원가입</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">제휴신청</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\" aria-expanded=\"false\">술집찾기</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">회원가입</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">제휴신청</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">술집찾기</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "_customCSS": ""
         },
         {
@@ -149,10 +153,14 @@
           "_name": "header11",
           "_styles": {
             "H1": {
-              "font-size": "80px"
+              "font-size": "80px",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             "P": {
-              "font-size": "21px"
+              "font-size": "21px",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
           "_anchor": "header11-1",
@@ -184,7 +192,20 @@
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
         },
         {
-          "_styles": {},
+          "_styles": {
+            "H2": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "P": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "H3": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          },
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -230,6 +251,14 @@
               "text-transform": "uppercase",
               "letter-spacing": "2px",
               "color": "#fff"
+            },
+            ".mbr-section-text": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            ".mbr-section-subtitle B": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
           "title1": "Bootstrap 4",
@@ -361,9 +390,15 @@
         {
           "_styles": {
             ".mbr-section-subtitle": {
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
-            ".form-control-label": {}
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
           },
           "alias": "colorm/components",
           "_tags": [
@@ -491,7 +526,7 @@
           },
           "titled1": "<p><span style=\"font-style: normal;\"><b><a href=\"https://wonddo2.herokuapp.com/\" target=\"_blank\">회원가입</a>&nbsp; &nbsp;</b></span></p>",
           "titled2": "<span style=\"font-style: normal;\"><b><a href=\"https://wonddo2.herokuapp.com/\">제휴신청</a></b></span>",
-          "titled3": "<span style=\"font-style: normal;\"><b><a href=\"page2.html\">술집찾기</a></b></span>",
+          "titled3": "<span style=\"font-style: normal;\"><b>술집찾기</b></span>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "text": "Copyright (c) 2017 oneshot."
         }
@@ -522,8 +557,8 @@
             },
             ".link, .dropdown-item": {
               "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i",
-              "font-family": "'Arvo', serif"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
             },
             ".link": {
               "font-size": "1.05rem"
@@ -573,9 +608,9 @@
             "bgColor": "#f1c40f",
             "fontSize": "1.05",
             "fontName": {
-              "url": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i",
-              "name": "Arvo",
-              "css": "'Arvo', serif"
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -603,12 +638,14 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ONESHOT</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">회원가입</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">제휴신청</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\" aria-expanded=\"false\">술집찾기</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">회원가입</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">제휴신청</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">술집찾기</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_styles": {
             ".mbr-section-title": {
-              "font-weight": "700"
+              "font-weight": "700",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".display-6": {
               "text-transform": "none",
@@ -618,6 +655,10 @@
             },
             ".mbr-cards-row": {
               "margin-top": "40px"
+            },
+            "P": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
           "title1": "Bootstrap 4",
@@ -702,13 +743,15 @@
               "font-family": "@titleFont"
             },
             ".item-title": {
-              "font-family": "@titleFont"
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".card-description": {
               "font-family": "@textFont"
             },
             ".shop-item-price": {
-              "font-family": "@subtitleFont"
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".btn": {
               "font-size": "14px"
@@ -942,7 +985,7 @@
           },
           "titled1": "<p><span style=\"font-style: normal;\"><b><a href=\"https://wonddo2.herokuapp.com/\" target=\"_blank\">회원가입</a>&nbsp; &nbsp;</b></span></p>",
           "titled2": "<span style=\"font-style: normal;\"><b><a href=\"https://wonddo2.herokuapp.com/\">제휴신청</a></b></span>",
-          "titled3": "<span style=\"font-style: normal;\"><b><a href=\"page2.html\">술집찾기</a></b></span>",
+          "titled3": "<span style=\"font-style: normal;\"><b>술집찾기</b></span>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "text": "Copyright (c) 2017 oneshot."
         }
@@ -973,8 +1016,8 @@
             },
             ".link, .dropdown-item": {
               "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i",
-              "font-family": "'Arvo', serif"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
             },
             ".link": {
               "font-size": "1.05rem"
@@ -1024,9 +1067,9 @@
             "bgColor": "#f1c40f",
             "fontSize": "1.05",
             "fontName": {
-              "url": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i",
-              "name": "Arvo",
-              "css": "'Arvo', serif"
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -1054,12 +1097,14 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ONESHOT</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">회원가입</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">제휴신청</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\" aria-expanded=\"false\">술집찾기</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">회원가입</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">제휴신청</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">술집찾기</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_styles": {
             ".mbr-section-title": {
-              "font-size": "46px"
+              "font-size": "46px",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
           "text": "Develop fully responsive, mobile-ready websites",
@@ -1169,7 +1214,9 @@
           "_name": "gallery3",
           "_styles": {
             ".mbr-gallery-title": {
-              "text-align": "center"
+              "text-align": "center",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
           "_params": {
@@ -1431,7 +1478,12 @@
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
         },
         {
-          "_styles": {},
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          },
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
           "media": {
             "image": {
@@ -1550,7 +1602,7 @@
           },
           "titled1": "<p><span style=\"font-style: normal;\"><b><a href=\"https://wonddo2.herokuapp.com/\" target=\"_blank\">회원가입</a>&nbsp; &nbsp;</b></span></p>",
           "titled2": "<span style=\"font-style: normal;\"><b><a href=\"https://wonddo2.herokuapp.com/\">제휴신청</a></b></span>",
-          "titled3": "<span style=\"font-style: normal;\"><b><a href=\"page2.html\">술집찾기</a></b></span>",
+          "titled3": "<span style=\"font-style: normal;\"><b>술집찾기</b></span>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "text": "Copyright (c) 2017 oneshot."
         }

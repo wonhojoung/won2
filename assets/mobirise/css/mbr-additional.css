@@ -1,7 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+
+
+
+
+
+
+
+
 
 
 
@@ -736,7 +746,7 @@ blockquote {
 #menu-z .link,
 #menu-z .dropdown-item {
   color: #ffffff;
-  font-family: 'Arvo', serif;
+  font-family: 'Roboto', sans-serif;
 }
 #menu-z .link {
   font-size: 1.05rem;
@@ -790,9 +800,20 @@ blockquote {
 }
 #header11-1 H1 {
   font-size: 80px;
+  font-family: 'Roboto', sans-serif;
 }
 #header11-1 P {
   font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+}
+#counters2-l H2 {
+  font-family: 'Roboto', sans-serif;
+}
+#counters2-l P {
+  font-family: 'Roboto', sans-serif;
+}
+#counters2-l H3 {
+  font-family: 'Roboto', sans-serif;
 }
 #features2-r .mbr-section-title {
   font-weight: 700;
@@ -802,11 +823,21 @@ blockquote {
   letter-spacing: 2px;
   color: #fff;
 }
+#features2-r .mbr-section-text {
+  font-family: 'Roboto', sans-serif;
+}
+#features2-r .mbr-section-subtitle B {
+  font-family: 'Roboto', sans-serif;
+}
 #form5-j .mbr-section-subtitle {
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
 }
 #form5-j .form-control-label {
   color: undefined;
+}
+#form5-j .mbr-section-title {
+  font-family: 'Roboto', sans-serif;
 }
 #footer7-s P {
   color: #dddddd;
@@ -814,6 +845,10 @@ blockquote {
 #footer7-s .mbr-section-subtitle {
   text-align: right;
 }
+
+
+
+
 
 
 #menu-8 .hide-buttons .nav-btn {
@@ -834,7 +869,7 @@ blockquote {
 #menu-8 .link,
 #menu-8 .dropdown-item {
   color: #ffffff;
-  font-family: 'Arvo', serif;
+  font-family: 'Roboto', sans-serif;
 }
 #menu-8 .link {
   font-size: 1.05rem;
@@ -888,6 +923,7 @@ blockquote {
 }
 #features15-n .mbr-section-title {
   font-weight: 700;
+  font-family: 'Roboto', sans-serif;
 }
 #features15-n .display-6 {
   text-transform: none;
@@ -897,6 +933,9 @@ blockquote {
 }
 #features15-n .mbr-cards-row {
   margin-top: 40px;
+}
+#features15-n P {
+  font-family: 'Roboto', sans-serif;
 }
 #shop1-o .galleryItem h4:hover {
   color: #000000;
@@ -927,13 +966,13 @@ blockquote {
   font-family: Arvo;
 }
 #shop1-o .item-title {
-  font-family: Arvo;
+  font-family: 'Roboto', sans-serif;
 }
 #shop1-o .card-description {
   font-family: Open Sans;
 }
 #shop1-o .shop-item-price {
-  font-family: Montserrat;
+  font-family: 'Roboto', sans-serif;
 }
 #shop1-o .btn {
   font-size: 14px;
@@ -944,6 +983,9 @@ blockquote {
 #footer7-s .mbr-section-subtitle {
   text-align: right;
 }
+
+
+
 
 
 #menu-8 .hide-buttons .nav-btn {
@@ -964,7 +1006,7 @@ blockquote {
 #menu-8 .link,
 #menu-8 .dropdown-item {
   color: #ffffff;
-  font-family: 'Arvo', serif;
+  font-family: 'Roboto', sans-serif;
 }
 #menu-8 .link {
   font-size: 1.05rem;
@@ -1018,9 +1060,11 @@ blockquote {
 }
 #intro3-g .mbr-section-title {
   font-size: 46px;
+  font-family: 'Roboto', sans-serif;
 }
 #gallery3-d .mbr-gallery-title {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 #table1-e th {
   color: #9fa3a7;
@@ -1037,6 +1081,9 @@ blockquote {
 #testimonials2-b .card-footer > small {
   text-align: right;
   color: #000000;
+}
+#contacts2-c .mbr-section-title {
+  font-family: 'Roboto', sans-serif;
 }
 #footer7-s P {
   color: #dddddd;

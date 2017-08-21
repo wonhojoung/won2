@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "oneshot",
-    "currentPage": "page2.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -107,6 +107,7 @@
             "Theme"
           ],
           "_name": "menu",
+          "_customCSS": "",
           "_anchor": "menu-z",
           "_params": {
             "bgColor": "#f1c40f",
@@ -142,8 +143,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ONESHOT</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">회원가입</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">제휴신청</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">술집찾기</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
-          "_customCSS": ""
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">회원가입</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">제휴신청</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">술집찾기</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "alias": "colorm/components",
@@ -746,14 +746,14 @@
               "font-family": "@titleFont"
             },
             ".item-title": {
-              "font-family": "'Roboto', sans-serif",
+              "font-family": "@titleFont",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".card-description": {
               "font-family": "@textFont"
             },
             ".shop-item-price": {
-              "font-family": "'Roboto', sans-serif",
+              "font-family": "@subtitleFont",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".btn": {
@@ -783,11 +783,11 @@
                 "image": "@PROJECT_PATH@/assets/images/1-1200x1280.jpg",
                 "onsale": "SALE 50% OFF",
                 "itemTitle": "FOX",
-                "itemSubtitle": "could be your best friend",
+                "itemSubtitle": "분위기 좋은 술집",
                 "starsImg": "@PROJECT_PATH@/assets/images/4.png",
                 "stars": "@PROJECT_PATH@/assets/images/4.png",
                 "itemPrice": "별점 4점",
-                "itemDescription": "Beware! It can fly away. We make no guarantees.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>367DDF5p</b>",
+                "itemDescription": "자세한 정보는 아래링크를 통해 보실 수 있습니다.",
                 "button": "<a data-app-btn=\"true\" href=\"page2.html\" class=\"btn btn-warning-outline btn-warning\">자세히 보기</a>"
               },
               {
@@ -800,11 +800,11 @@
                 "image": "@PROJECT_PATH@/assets/images/2-1200x1280.jpg",
                 "onsale": "SALE 50% OFF",
                 "itemTitle": "오븐에 빠진 닭",
-                "itemSubtitle": "your energy dose",
+                "itemSubtitle": "치킨이 맛있는 술집",
                 "starsImg": "@PROJECT_PATH@/assets/images/2.png",
                 "stars": "@PROJECT_PATH@/assets/images/2.png",
                 "itemPrice": "별점 2점",
-                "itemDescription": "There are contraindications.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>34567F5p</b>",
+                "itemDescription": "자세한 정보는 아래링크를 통해 보실 수 있습니다.",
                 "button": "<a data-app-btn=\"true\" href=\"page2.html\" class=\"btn btn-warning-outline btn-warning\">자세히 보기</a>"
               },
               {
@@ -817,11 +817,11 @@
                 "image": "@PROJECT_PATH@/assets/images/3-1200x1280.jpg",
                 "onsale": "SALE 50% OFF",
                 "itemTitle": "모로미 쿠시",
-                "itemSubtitle": "for freedom",
+                "itemSubtitle": "일본 선술집",
                 "starsImg": "@PROJECT_PATH@/assets/images/3.png",
                 "stars": "@PROJECT_PATH@/assets/images/3.png",
                 "itemPrice": "별점 3점",
-                "itemDescription": "Some cool bicycle.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>3476DF5p</b>",
+                "itemDescription": "자세한 정보는 아래링크를 통해 보실 수 있습니다.",
                 "button": "<a data-app-btn=\"true\" href=\"page2.html\" class=\"btn btn-warning-outline btn-warning\">자세히 보기</a>"
               },
               {
@@ -834,11 +834,11 @@
                 "image": "@PROJECT_PATH@/assets/images/4-1200x1280.jpg",
                 "onsale": "SALE 50% OFF",
                 "itemTitle": "너땜에 한잔",
-                "itemSubtitle": "provided by magicians",
+                "itemSubtitle": "인테리어가 좋은 술집",
                 "starsImg": "@PROJECT_PATH@/assets/images/5.png",
                 "stars": "@PROJECT_PATH@/assets/images/5.png",
                 "itemPrice": "별점 5점",
-                "itemDescription": "You should believe it works, otherwise there is no magic!<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>3478DF5p</b>",
+                "itemDescription": "자세한 정보는 아래링크를 통해 보실 수 있습니다.",
                 "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com/\" class=\"btn btn-warning-outline btn-warning\">자세히 보기</a>"
               },
               {
@@ -851,11 +851,11 @@
                 "image": "@PROJECT_PATH@/assets/images/5-1200x1280.jpg",
                 "onsale": "SALE 50% OFF",
                 "itemTitle": "밤새우리",
-                "itemSubtitle": "seen/not seen on photo",
+                "itemSubtitle": "화로구이 술집",
                 "starsImg": "@PROJECT_PATH@/assets/images/3.png",
                 "stars": "@PROJECT_PATH@/assets/images/3.png",
                 "itemPrice": "별점 3점",
-                "itemDescription": "Has no weight! Try not to lose it.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>34GFDF5p</b>",
+                "itemDescription": "자세한 정보는 아래링크를 통해 보실 수 있습니다.",
                 "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com/\" class=\"btn btn-warning-outline btn-warning\">자세히 보기</a>"
               },
               {
@@ -868,11 +868,11 @@
                 "image": "@PROJECT_PATH@/assets/images/6-1200x1280.jpg",
                 "onsale": "SALE 50% OFF",
                 "itemTitle": "차칸술집",
-                "itemSubtitle": "made for walking",
+                "itemSubtitle": "안주가 싼 술집",
                 "starsImg": "@PROJECT_PATH@/assets/images/1.png",
                 "stars": "@PROJECT_PATH@/assets/images/1.png",
                 "itemPrice": "별점 1점",
-                "itemDescription": "Casual shoes (contact us for sizing)<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>385DDF5p</b>",
+                "itemDescription": "자세한 정보는 아래링크를 통해 보실 수 있습니다.",
                 "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com/\" class=\"btn btn-warning-outline btn-warning\">자세히 보기</a>"
               },
               {
@@ -885,11 +885,11 @@
                 "image": "@PROJECT_PATH@/assets/images/7-1200x1280.jpg",
                 "onsale": "SALE 50% OFF",
                 "itemTitle": "감나무집",
-                "itemSubtitle": "keeps your hands free",
+                "itemSubtitle": "분위기 좋은 술집",
                 "starsImg": "@PROJECT_PATH@/assets/images/3.png",
                 "stars": "@PROJECT_PATH@/assets/images/3.png",
                 "itemPrice": "별점 3점",
-                "itemDescription": "Seen on photo. Check our gallery for more photos.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>340DDF5p</b>",
+                "itemDescription": "자세한 정보는 아래링크를 통해 보실 수 있습니다.",
                 "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com/\" class=\"btn btn-warning-outline btn-warning\">자세히 보기</a>"
               },
               {
@@ -902,11 +902,11 @@
                 "image": "@PROJECT_PATH@/assets/images/8-1200x1280.jpg",
                 "onsale": "SALE 50% OFF",
                 "itemTitle": "요술",
-                "itemSubtitle": "to make your life happier",
+                "itemSubtitle": "인테리어가 좋은 술집",
                 "starsImg": "@PROJECT_PATH@/assets/images/4.png",
                 "stars": "@PROJECT_PATH@/assets/images/4.png",
                 "itemPrice": "별점 4점",
-                "itemDescription": "Hand-made! So they may differ.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>34556F5p</b>",
+                "itemDescription": "자세한 정보는 아래링크를 통해 보실 수 있습니다.",
                 "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com/\" class=\"btn btn-warning-outline btn-warning\">자세히 보기</a>"
               }
             ],

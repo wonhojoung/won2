@@ -141,7 +141,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ONESHOT</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ONESHOT</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">회원가입</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">제휴신청</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">술집찾기</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "_customCSS": ""
         },
@@ -464,6 +464,9 @@
             },
             ".mbr-section-subtitle": {
               "text-align": "right"
+            },
+            ".mbr-section-subtitle SPAN": {
+              "color": "#000000"
             }
           },
           "title1": "product",
@@ -526,7 +529,7 @@
           },
           "titled1": "<p><span style=\"font-style: normal;\"><b><a href=\"https://wonddo2.herokuapp.com/\" target=\"_blank\">회원가입</a>&nbsp; &nbsp;</b></span></p>",
           "titled2": "<span style=\"font-style: normal;\"><b><a href=\"https://wonddo2.herokuapp.com/\">제휴신청</a></b></span>",
-          "titled3": "<span style=\"font-style: normal;\"><b>술집찾기</b></span>",
+          "titled3": "<span style=\"font-style: normal;\"><b><a href=\"page1.html\">술집찾기</a></b></span>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "text": "Copyright (c) 2017 oneshot."
         }
@@ -637,7 +640,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ONESHOT</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ONESHOT</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">회원가입</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">제휴신청</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">술집찾기</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -923,6 +926,9 @@
             },
             ".mbr-section-subtitle": {
               "text-align": "right"
+            },
+            ".mbr-section-subtitle SPAN": {
+              "color": "#000000"
             }
           },
           "title1": "product",
@@ -985,7 +991,7 @@
           },
           "titled1": "<p><span style=\"font-style: normal;\"><b><a href=\"https://wonddo2.herokuapp.com/\" target=\"_blank\">회원가입</a>&nbsp; &nbsp;</b></span></p>",
           "titled2": "<span style=\"font-style: normal;\"><b><a href=\"https://wonddo2.herokuapp.com/\">제휴신청</a></b></span>",
-          "titled3": "<span style=\"font-style: normal;\"><b>술집찾기</b></span>",
+          "titled3": "<span style=\"font-style: normal;\"><b><a href=\"page1.html\">술집찾기</a></b></span>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "text": "Copyright (c) 2017 oneshot."
         }
@@ -1096,7 +1102,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ONESHOT</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ONESHOT</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">회원가입</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://wonddo2.herokuapp.com/\" aria-expanded=\"false\" target=\"_blank\">제휴신청</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">술집찾기</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -1540,6 +1546,9 @@
             },
             ".mbr-section-subtitle": {
               "text-align": "right"
+            },
+            ".mbr-section-subtitle SPAN": {
+              "color": "#000000"
             }
           },
           "title1": "product",
@@ -1602,7 +1611,7 @@
           },
           "titled1": "<p><span style=\"font-style: normal;\"><b><a href=\"https://wonddo2.herokuapp.com/\" target=\"_blank\">회원가입</a>&nbsp; &nbsp;</b></span></p>",
           "titled2": "<span style=\"font-style: normal;\"><b><a href=\"https://wonddo2.herokuapp.com/\">제휴신청</a></b></span>",
-          "titled3": "<span style=\"font-style: normal;\"><b>술집찾기</b></span>",
+          "titled3": "<span style=\"font-style: normal;\"><b><a href=\"page1.html\">술집찾기</a></b></span>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "text": "Copyright (c) 2017 oneshot."
         }

@@ -845,6 +845,9 @@ blockquote {
 #footer7-s .mbr-section-subtitle {
   text-align: right;
 }
+#footer7-s .mbr-section-subtitle SPAN {
+  color: #000000;
+}
 
 
 
@@ -983,6 +986,9 @@ blockquote {
 #footer7-s .mbr-section-subtitle {
   text-align: right;
 }
+#footer7-s .mbr-section-subtitle SPAN {
+  color: #000000;
+}
 
 
 
@@ -1090,4 +1096,7 @@ blockquote {
 }
 #footer7-s .mbr-section-subtitle {
   text-align: right;
+}
+#footer7-s .mbr-section-subtitle SPAN {
+  color: #000000;
 }
